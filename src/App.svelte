@@ -28,7 +28,7 @@
   }
 
   .operation {
-    margin-top: 12px;
+    margin-top: 20px;
   }
 
   .icon {
@@ -43,10 +43,23 @@
     width: 100%;
   }
 
+  h1 {
+    margin-bottom: 26px;
+  }
+
   form {
     width: 582px;
     position: absolute;
     top: 20%;
+  }
+
+  .form-control:focus {
+    border-color: rgb(206, 212, 218);
+    box-shadow: none;
+  }
+
+  button:first-child {
+    margin-right: 16px;
   }
 </style>
 
