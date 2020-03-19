@@ -48,7 +48,7 @@
 </style>
 
 <svelte:head>
-  <title>Serch | kemu.me</title>
+  <title>Bingo</title>
   <meta name="viewprot" content="width=device-width,initial-scale=1" />
   <link
     rel="stylesheet"
@@ -57,6 +57,7 @@
 
 <main>
   <form>
+    <h1>Bingo</h1>
     <div class="input-group mb-3">
       <div class="input-group-prepend">
         <span class="input-group-text" id="basic-addon1">
