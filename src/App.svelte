@@ -18,20 +18,16 @@
 
 <style>
   main {
+    position: relative;
     text-align: center;
     padding: 1em;
     height: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
   }
 
-  .query-input {
-    width: 480px;
-  }
-
-  .search {
+  .operation {
     margin-top: 12px;
   }
 
@@ -40,10 +36,17 @@
     height: 20px;
     width: 20px;
   }
+
   svg {
     display: block;
     height: 100%;
     width: 100%;
+  }
+
+  form {
+    width: 582px;
+    position: absolute;
+    top: 20%;
   }
 </style>
 
@@ -81,7 +84,7 @@
         class="form-control query-input"
         aria-describedby="basic-addon1" />
     </div>
-    <div class="search">
+    <div class="operation">
       <button class="btn btn-light" on:click={bing}>Bing</button>
       <button class="btn btn-light" on:click={google}>Google</button>
     </div>
